@@ -1,0 +1,85 @@
+@import "../varible.scss";
+
+.button {
+  font-family: $fontFamily, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  &__primary {
+    color: $colorTextContrast;
+    background-color: $colorAccent;
+    &:hover {
+      background-color: lighten($colorAccent, 10%);
+    }
+  }
+  &__secondary {
+    color: $colorText;
+    background-color: $colorBgSecondary;
+    &:hover {
+      background-color: darken($colorBgSecondary, 10%);
+    }
+  }
+  &__outline {
+    color: $colorText;
+    background-color: $colorBg;
+    border: 1px solid $colorTextSecondary;
+    &:hover {
+      background-color: $colorBgSecondary;
+    }
+  }
+  &__disabled {
+    color: $colorTextSecondary;
+    background-color: $colorBgSecondary;
+    cursor: default;
+    &:hover {
+      color: $colorTextSecondary;
+      background-color: $colorBgSecondary;
+    }
+  }
+  &__rounded {
+    border-radius: 32px;
+  }
+  &__for-all-width {
+    width: 100%;
+  }
+  &__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__overlay {
+    position: absolute;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+  }
+  &__label-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    width: 16px;
+    height: 16px;
+    &--left {
+      margin-right: 4px;
+    }
+    &--right {
+      margin-left: 4px;
+    }
+  }
+}

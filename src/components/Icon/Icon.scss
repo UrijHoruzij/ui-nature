@@ -1,0 +1,18 @@
+@import "../varible.scss";
+
+.icon {
+  fill: $colorIcon;
+  stroke: $colorIcon;
+  &__secondary {
+    fill: $colorIconSecondary;
+    stroke: $colorIconSecondary;
+  }
+  &__contrast {
+    fill: $colorIconContrast;
+    stroke: $colorIconContrast;
+  }
+  &__accent {
+    fill: $colorAccent;
+    stroke: $colorAccent;
+  }
+}

@@ -1,0 +1,26 @@
+$colorText: #333333;
+$colorTextSecondary: #bdbdbd;
+$colorTextContrast: #ffffff;
+
+$colorBg: #ffffff;
+$colorBgSecondary: #f0f0f0;
+$colorBgContrast: #333333;
+
+$colorIcon: #333333;
+$colorIconSecondary: #bdbdbd;
+$colorIconContrast: #ffffff;
+
+$colorSuccess: #28c75d;
+$colorError: #ff1100;
+$colorNotify: #ff9e00;
+
+$colorAccent: #4caf50;
+
+$fontFamily: "Nunito";
+
+@mixin shadow-10() {
+  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.1));
+}
+@mixin shadow-20() {
+  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.2));
+}

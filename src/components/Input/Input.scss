@@ -1,0 +1,94 @@
+@import "../varible.scss";
+
+.form-item {
+  font-family: $fontFamily, sans-serif;
+  width: 100%;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+.input {
+  font-family: $fontFamily, sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 32px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: $colorText;
+  border: none;
+  outline: none;
+}
+.label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid $colorTextSecondary;
+  pointer-events: none;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid $colorAccent;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  &-error {
+    border-bottom: 1px solid $colorError;
+    &::after {
+      content: "";
+      border-bottom: 1px solid $colorError;
+    }
+  }
+  &-warning {
+    border-bottom: 1px solid $colorNotify;
+    &::after {
+      content: "";
+      border-bottom: 1px solid $colorNotify;
+    }
+  }
+  &-success {
+    border-bottom: 1px solid $colorAccent;
+    &::after {
+      border-bottom: 1px solid $colorAccent;
+    }
+  }
+  &-name {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    color: $colorTextSecondary;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.input:focus + .label .label-name,
+.input:valid + .label .label-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+}
+
+.input:focus + .label::after,
+.input:valid + .label::after {
+  transform: translateX(0%);
+}
+
+.help {
+  font-family: $fontFamily;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  &-error {
+    color: $colorError;
+  }
+  &-success {
+    color: $colorAccent;
+  }
+  &-warning {
+    color: $colorNotify;
+  }
+}

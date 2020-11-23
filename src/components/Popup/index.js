@@ -5,21 +5,27 @@ import { Icon } from '../';
 
 import './Popup.scss';
 
-function Popup({
-    type,
-    onClose,
-    children
-}) {
+const Popup = props => {
+    const {
+        type,
+        onClose,
+        children,
+        className,
+        style
+    } = props;
     return (
         <div className={classNames({
             "popup": true,
-            "popup-modal": type === "modal",
-            "popup-tooltip-image": type === "tooltip-image",
-            "popup-thumnail": type === "thumnail",
-            "popup-tooltip": type === "tooltip",
-            "popup-tooltip-close": type === "tooltip-close",
-            "popup-close": type === "modal-close"
-        })}>
+            // "popup-modal": type === "modal",
+            // "popup-tooltip-image": type === "tooltip-image",
+            // "popup-thumnail": type === "thumnail",
+            // "popup-tooltip": type === "tooltip",
+            // "popup-tooltip-close": type === "tooltip-close",
+            // "popup-close": type === "modal-close",
+            className
+        })}
+        style={style}
+        {...props}>
             { (type === "modal-close" || type === "tooltip-close") ?
                 (
                     <div className="popup-close-btn" onClick={onClose}>
@@ -37,14 +43,16 @@ function Popup({
 
 Popup.propTypes = {
     type: PropTypes.oneOf([
-        'tooltip-image',
-        'thumnail',
-        'tooltip',
-        'tooltip-close',
-        'modal-close',//
-        'modal',
+        // 'tooltip-image',
+        // 'thumnail',
+        // 'tooltip',
+        // 'tooltip-close',
+        'modal-close',
+        // 'modal',
         'popup'//
-    ])
+    ]),
+    className: PropTypes.string,
+    style: PropTypes.string
 }
 
 Popup.defaultProps = {

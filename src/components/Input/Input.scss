@@ -6,6 +6,9 @@
   position: relative;
   height: 50px;
   overflow: hidden;
+  & input::placeholder {
+    opacity: 0;
+  }
 }
 .input {
   font-family: $fontFamily, sans-serif;

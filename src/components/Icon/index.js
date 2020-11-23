@@ -5,13 +5,15 @@ import icons from './Icons/icons';
 
 import './Icon.scss';
 
-const Icon = ({
-    name,
-    width,
-    height,
-    className,
-    color
-}) => {
+const Icon = props => {
+    const {
+        name,
+        width,
+        height,
+        className,
+        style,
+        color
+    } = props;
     return (
         <svg className={classNames({
             "icon": true,
@@ -19,11 +21,13 @@ const Icon = ({
             "icon__contrast": color === "contrast",
             "icon__accent": color === "accent",
             className
-        })} 
+        })}
+        style={style}
         width={width} 
         height={height} 
         viewBox="0 0 16 16"  
-        xmlns="http://www.w3.org/2000/svg">
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}>
            {icons[name]}
         </svg>
     )
@@ -34,7 +38,8 @@ Icon.propTypes = {
   width: PropTypes.string,
   height: PropTypes.string,
   className: PropTypes.string,
-  color: PropTypes.string
+  color: PropTypes.string,
+  style: PropTypes.string
 }; 
 
 Icon.defaultProps = {

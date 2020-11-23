@@ -1,18 +1,19 @@
 {
   "name": "ui-nature",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "start": "react-scripts start",
     "eject": "react-scripts eject",
     "style": "styleguidist server",
-    "build": "npm run scss && cross-env NODE_ENV=production babel src/components --out-dir dist",
+    "build": "npm run scss && cross-env NODE_ENV=production babel src/components --out-dir dist && copyfiles --flat src/components/**/*.woff2 dist/Fonts",
     "scss": "node-sass src/components -o dist"
   },
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "classnames": "^2.2.6",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
@@ -22,6 +23,7 @@
     "babel-loader": "^8.2.1",
     "babel-plugin-transform-rename-import": "^2.3.0",
     "classnames": "^2.2.6",
+    "copyfiles": "^2.4.0",
     "cross-env": "^7.0.2",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",

@@ -4,13 +4,16 @@ import classNames from "classnames";
 
 import './Typography.scss';
 
-const Typography = ({
-    type,
-    children,
-    color,
-    uppercase
-}) => {
-    var style = classNames({
+const Typography = props => {
+    const {
+        type,
+        children,
+        color,
+        uppercase,
+        className,
+        style
+    } = props;
+    const classNameComponent = classNames({
         "typography": true,
         "typography__h1": type === "h1",
         "typography__h2": type === "h2",
@@ -20,19 +23,20 @@ const Typography = ({
         "typography__color-accent": color === "accent",
         "typography__color-text": color === "text",
         "typography__color-text-secondary": color === "secondary",
-        "typography__color-text-contrast": color === "contrast"
+        "typography__color-text-contrast": color === "contrast",
+        className
       })
       switch (type) {
             case 'h1':
-                return <h1 className={style}>{children}</h1>
+                return <h1 style={style} className={classNameComponent}>{children}</h1>
             case 'h2':
-                return <h2 className={style}>{children}</h2>
+                return <h2 style={style} className={classNameComponent}>{children}</h2>
             case 'h3':
-                return <h3 className={style}>{children}</h3>
+                return <h3 style={style} className={classNameComponent}>{children}</h3>
             case 'text':
-                return <p className={style}>{children}</p>
+                return <p style={style} className={classNameComponent}>{children}</p>
             default:
-                return <p className={style}>{children}</p>
+                return <p style={style} className={classNameComponent}>{children}</p>
       }
 }
 
@@ -50,7 +54,9 @@ Typography.propTypes = {
         'contrast'
     ]),
     children: PropTypes.node,
-    uppercase: PropTypes.bool
+    uppercase: PropTypes.bool,
+    className: PropTypes.string,
+    style: PropTypes.string
 }
 
 Typography.defaultProps = {

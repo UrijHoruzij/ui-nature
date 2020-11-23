@@ -83,3 +83,33 @@
     }
   }
 }
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: $colorBg;
+  animation: loading 1s infinite;
+}
+.dot:nth-child(1) {
+  margin-right: 4px;
+  animation-delay: 0.33s;
+}
+.dot:nth-child(2) {
+  animation-delay: 0.66s;
+}
+.dot:nth-child(3) {
+  margin-left: 4px;
+  animation-delay: 0.99s;
+}
+
+@keyframes loading {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-4px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

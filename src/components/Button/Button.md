@@ -78,3 +78,11 @@ import { Icon } from "../";
   Закрыть
 </Button>;
 ```
+
+### Icon loading
+
+```js
+<Button loading type="primary">
+  Закрыть
+</Button>
+```

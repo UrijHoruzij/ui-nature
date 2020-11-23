@@ -4,20 +4,20 @@ import classNames from "classnames";
 
 import './Input.scss'
 
-const Input = ({
-  value,
-  placeholder,
-  disabled,
-  type,
-  name,
-  status,
-  style,
-  help,
-  isFocused,
-  className,
-  onChange,
-  inputRef
-}) => {
+const Input = props => {
+  const {
+    value,
+    placeholder,
+    disabled,
+    type,
+    name,
+    status,
+    style,
+    help,
+    isFocused,
+    className,
+    onChange,
+  } = props;
   return (
     <>
       <div className="form-item">
@@ -34,6 +34,7 @@ const Input = ({
         {...value ? value : null}
         {...disabled ? disabled : null}
         {...isFocused ? autofocus : null}
+        {...props}
         />
         <label htmlFor={name} className={classNames({
           "label": true,
@@ -63,7 +64,6 @@ Input.propTypes = {
   disabled: PropTypes.bool,
   type: PropTypes.oneOf([
       'email',
-      'number',//
       'password',
       'tel',
       'text',
@@ -74,9 +74,8 @@ Input.propTypes = {
   help: PropTypes.string,
   isFocused: PropTypes.bool,
   className: PropTypes.string,
-  style: PropTypes.object,
+  style: PropTypes.string,
   onChange: PropTypes.func,
-  inputRef: PropTypes.func
 }
 
 Input.defaultProps = {

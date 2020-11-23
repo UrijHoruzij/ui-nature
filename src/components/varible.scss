@@ -21,6 +21,3 @@ $fontFamily: "Nunito";
 @mixin shadow-10() {
   filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.1));
 }
-@mixin shadow-20() {
-  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.2));
-}

@@ -4,21 +4,22 @@ import classNames from "classnames";
 
 import "./Button.scss";
 
-const Button = ({
-  type,
-  className,
-  style,
-  children,
-  icon,
-  iconPosition,
-  overlay,
-  disabled,
-  width,
-  loading,
-  rounded,
-  onClick
-}) => {
-  const classNameComponent = classNames("button", className, {
+const Button = props => {
+  const {
+    type,
+    className,
+    style,
+    children,
+    icon,
+    iconPosition,
+    overlay,
+    disabled,
+    width,
+    loading,
+    rounded,
+    onClick
+  } = props;
+  const classNameComponent = classNames(className,"button", {
         "button__primary": type === "primary",
         "button__secondary": type === "secondary",
         "button__outline": type === "outline",
@@ -30,7 +31,11 @@ const Button = ({
     <>
       {
         (loading) ? (
-          <span className="button__loading"></span>
+          <span className="button__loading">
+            <span className="dot"></span>
+            <span className="dot"></span>
+            <span className="dot"></span>
+          </span>
         ) : (
           icon && (iconPosition === "left") ? (
             <>
@@ -62,6 +67,7 @@ const Button = ({
         onClick={onClick}
         style={style}
         className={classNameComponent}
+        {...props}
       >
         {
           (overlay) ? (
@@ -88,7 +94,7 @@ Button.propTypes = {
       'outline'
     ]),
   className: PropTypes.string,
-  style: PropTypes.object,
+  style: PropTypes.string,
   children: PropTypes.node,
   icon: PropTypes.node,
   iconPosition: PropTypes.oneOf(['left', 'right']),

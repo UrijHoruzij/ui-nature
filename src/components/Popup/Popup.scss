@@ -9,8 +9,13 @@
   min-width: 80px;
   min-height: 80px;
   max-width: 600px;
+  max-height: 450px;
   &-modal {
-    @include shadow-20();
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
   &-tooltip-image {
   }

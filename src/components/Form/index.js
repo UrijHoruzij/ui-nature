@@ -4,17 +4,22 @@ import classNames from "classnames";
 
 import './Form.scss';
 
-function Form({
-    className,
-    children,
-    style,
-    onSubmit
-}) {
+const Form = props => {
+    const   {
+        className,
+        children,
+        style,
+        onSubmit
+    } = props;
     return (
-        <form style={style} className={classNames({
-            "form":true,
-            className
-        })} onSubmit={onSubmit}>
+        <form 
+            style={style} 
+            className={classNames({
+                "form":true,
+                className
+            })} 
+            onSubmit={onSubmit}
+            {...props}>
             {children}
         </form>
     )
@@ -23,7 +28,7 @@ function Form({
 Form.propTypes = {
     className: PropTypes.string,
     children: PropTypes.node,
-    style: PropTypes.object,
+    style: PropTypes.string,
     onSubmit: PropTypes.func
 }
 

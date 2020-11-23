@@ -26,8 +26,7 @@ const Icon = props => {
         width={width} 
         height={height} 
         viewBox="0 0 16 16"  
-        xmlns="http://www.w3.org/2000/svg"
-        {...props}>
+        xmlns="http://www.w3.org/2000/svg">
            {icons[name]}
         </svg>
     )

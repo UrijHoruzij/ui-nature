@@ -43,12 +43,12 @@ const Popup = props => {
 
 Popup.propTypes = {
     type: PropTypes.oneOf([
-        // 'tooltip-image',
-        // 'thumnail',
-        // 'tooltip',
-        // 'tooltip-close',
+        'tooltip-image',
+        'thumnail',
+        'tooltip',
+        'tooltip-close',
         'modal-close',
-        // 'modal',
+        'modal',
         'popup'//
     ]),
     className: PropTypes.string,

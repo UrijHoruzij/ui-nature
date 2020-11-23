@@ -67,7 +67,6 @@ const Button = props => {
         onClick={onClick}
         style={style}
         className={classNameComponent}
-        {...props}
       >
         {
           (overlay) ? (

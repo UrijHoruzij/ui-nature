@@ -1,0 +1,16 @@
+@import "../varible.scss";
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__image {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  &__description {
+    margin: 0;
+    margin-top: 8px;
+  }
+}

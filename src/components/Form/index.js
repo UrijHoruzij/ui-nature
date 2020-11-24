@@ -14,9 +14,8 @@ const Form = props => {
     return (
         <form 
             style={style} 
-            className={classNames({
+            className={classNames(className,{
                 "form":true,
-                className
             })} 
             onSubmit={onSubmit}
             {...props}>
@@ -28,7 +27,7 @@ const Form = props => {
 Form.propTypes = {
     className: PropTypes.string,
     children: PropTypes.node,
-    style: PropTypes.string,
+    style: PropTypes.object,
     onSubmit: PropTypes.func
 }
 

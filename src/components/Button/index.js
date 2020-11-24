@@ -93,7 +93,7 @@ Button.propTypes = {
       'outline'
     ]),
   className: PropTypes.string,
-  style: PropTypes.string,
+  style: PropTypes.object,
   children: PropTypes.node,
   icon: PropTypes.node,
   iconPosition: PropTypes.oneOf(['left', 'right']),

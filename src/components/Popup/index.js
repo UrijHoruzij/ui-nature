@@ -14,15 +14,14 @@ const Popup = props => {
         style
     } = props;
     return (
-        <div className={classNames({
+        <div className={classNames(className,{
             "popup": true,
             // "popup-modal": type === "modal",
             // "popup-tooltip-image": type === "tooltip-image",
             // "popup-thumnail": type === "thumnail",
             // "popup-tooltip": type === "tooltip",
             // "popup-tooltip-close": type === "tooltip-close",
-            // "popup-close": type === "modal-close",
-            className
+            // "popup-close": type === "modal-close", 
         })}
         style={style}
         {...props}>
@@ -52,7 +51,7 @@ Popup.propTypes = {
         'popup'//
     ]),
     className: PropTypes.string,
-    style: PropTypes.string
+    style: PropTypes.object
 }
 
 Popup.defaultProps = {

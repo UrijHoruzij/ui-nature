@@ -88,7 +88,7 @@
   height: 4px;
   border-radius: 4px;
   background-color: $colorBg;
-  animation: loading 1s infinite;
+  animation: loading2 1s infinite;
 }
 .dot:nth-child(1) {
   margin-right: 4px;
@@ -104,12 +104,12 @@
 
 @keyframes loading {
   0% {
-    transform: translatey(0px);
+    opacity: 100%;
   }
   50% {
-    transform: translatey(-4px);
+    opacity: 0;
   }
   100% {
-    transform: translatey(0px);
+    opacity: 100%;
   }
 }

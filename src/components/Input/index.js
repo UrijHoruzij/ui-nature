@@ -22,9 +22,8 @@ const Input = props => {
     <>
       <div className="form-item">
         <input 
-        className={classNames({
+        className={classNames(className,{
           "input":true,
-          className
         })} 
         style={style} 
         type={type} 
@@ -74,7 +73,7 @@ Input.propTypes = {
   help: PropTypes.string,
   isFocused: PropTypes.bool,
   className: PropTypes.string,
-  style: PropTypes.string,
+  style: PropTypes.object,
   onChange: PropTypes.func,
 }
 

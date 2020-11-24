@@ -1,6 +1,6 @@
 {
   "name": "ui-nature",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "scripts": {
     "eject": "react-scripts eject",
     "style": "styleguidist server",
@@ -46,9 +46,15 @@
     "dist",
     "README.md"
   ],
-  "repository": "UrijHoruzij/ui-nature",
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/UrijHoruzij/ui-nature.git",
+    "directory": "packages/name"
+  },
+  "author": "Urij Horuzij",
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1"
-  }
+  },
+  "homepage": "https://github.com/UrijHoruzij/ui-nature"
 }

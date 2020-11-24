@@ -2,7 +2,7 @@
 
 .popup {
   position: relative;
-  border-radius: 4px;
+  border-radius: $radius;
   background-color: $colorBg;
   padding: 8px;
   @include shadow-10();

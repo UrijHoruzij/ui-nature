@@ -15,12 +15,11 @@ const Icon = props => {
         color
     } = props;
     return (
-        <svg className={classNames({
+        <svg className={classNames(className,{
             "icon": true,
             "icon__secondary": color === "secondary",
             "icon__contrast": color === "contrast",
             "icon__accent": color === "accent",
-            className
         })}
         style={style}
         width={width} 
@@ -38,7 +37,7 @@ Icon.propTypes = {
   height: PropTypes.string,
   className: PropTypes.string,
   color: PropTypes.string,
-  style: PropTypes.string
+  style: PropTypes.object
 }; 
 
 Icon.defaultProps = {

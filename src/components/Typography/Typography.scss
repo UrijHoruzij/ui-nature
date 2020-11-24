@@ -27,6 +27,15 @@
   &__uppercase {
     text-transform: uppercase;
   }
+  &__underlined {
+    text-decoration: underline;
+  }
+  &__overlined {
+    text-decoration: overline;
+  }
+  &__crossed {
+    text-decoration: line-through;
+  }
   &__color-accent {
     color: $colorAccent;
   }

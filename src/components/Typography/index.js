@@ -6,6 +6,7 @@ import './Typography.scss';
 
 const Typography = props => {
     const {
+        decoration,
         type,
         children,
         color,
@@ -20,6 +21,9 @@ const Typography = props => {
         "typography__h3": type === "h3",
         "typography_text": type === "text",
         "typography__uppercase": uppercase,
+        "typography__underlined": decoration === "underlined",
+        "typography__overlined": decoration === "overlined",
+        "typography__crossed": decoration === "crossed",
         "typography__color-accent": color === "accent",
         "typography__color-text": color === "text",
         "typography__color-text-secondary": color === "secondary",
@@ -54,6 +58,11 @@ Typography.propTypes = {
     ]),
     children: PropTypes.node,
     uppercase: PropTypes.bool,
+    decoration: PropTypes.oneOf([
+        'underlined',
+        'overlined',
+        'crossed'
+    ]),
     className: PropTypes.string,
     style: PropTypes.object
 }

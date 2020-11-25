@@ -4,7 +4,14 @@ import classNames from "classnames";
 import { Icon } from '../';
 
 import './Popup.scss';
-
+{
+            // "popup-modal": type === "modal",
+            // "popup-tooltip-image": type === "tooltip-image",
+            // "popup-thumnail": type === "thumnail",
+            // "popup-tooltip": type === "tooltip",
+            // "popup-tooltip-close": type === "tooltip-close",
+            // "popup-close": type === "modal-close", 
+        }
 const Popup = props => {
     const {
         type,
@@ -14,17 +21,8 @@ const Popup = props => {
         style
     } = props;
     return (
-        <div className={classNames(className,{
-            "popup": true,
-            // "popup-modal": type === "modal",
-            // "popup-tooltip-image": type === "tooltip-image",
-            // "popup-thumnail": type === "thumnail",
-            // "popup-tooltip": type === "tooltip",
-            // "popup-tooltip-close": type === "tooltip-close",
-            // "popup-close": type === "modal-close", 
-        })}
-        style={style}
-        {...props}>
+        <div className={classNames("popup",className)}
+        style={style}>
             { (type === "modal-close" || type === "tooltip-close") ?
                 (
                     <div className="popup-close-btn" onClick={onClose}>

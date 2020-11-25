@@ -14,8 +14,7 @@ const Typography = props => {
         className,
         style
     } = props;
-    const classNameComponent = classNames(className,{
-        "typography": true,
+    const classNameComponent = classNames("typography",{
         "typography__h1": type === "h1",
         "typography__h2": type === "h2",
         "typography__h3": type === "h3",
@@ -28,7 +27,8 @@ const Typography = props => {
         "typography__color-text": color === "text",
         "typography__color-text-secondary": color === "secondary",
         "typography__color-text-contrast": color === "contrast",
-      })
+      },
+      className)
       switch (type) {
             case 'h1':
                 return <h1 style={style} className={classNameComponent}>{children}</h1>

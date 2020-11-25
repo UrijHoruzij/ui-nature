@@ -17,9 +17,7 @@ const Image = props => {
             style={{width:width+'px', height:height+'px'}}>
             <img 
                 className={
-                    classNames(className,{
-                        "image": true
-                    })
+                    classNames("image",className)
                 }
                 alt={alt}
                 src={src}

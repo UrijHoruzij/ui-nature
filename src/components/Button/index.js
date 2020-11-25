@@ -19,14 +19,15 @@ const Button = props => {
     rounded,
     onClick
   } = props;
-  const classNameComponent = classNames(className,"button", {
+  const classNameComponent = classNames("button", {
         "button__primary": type === "primary",
         "button__secondary": type === "secondary",
         "button__outline": type === "outline",
         "button__disabled": disabled,
         "button__rounded": rounded,
         "button__for-all-width": width
-      })
+      },
+      className)
   const content = () => (
     <>
       {

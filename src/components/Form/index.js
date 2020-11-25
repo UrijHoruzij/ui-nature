@@ -14,9 +14,7 @@ const Form = props => {
     return (
         <form 
             style={style} 
-            className={classNames(className,{
-                "form":true,
-            })} 
+            className={classNames("form",className)} 
             onSubmit={onSubmit}
             {...props}>
             {children}

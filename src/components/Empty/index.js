@@ -12,9 +12,7 @@ const Empty = props => {
         className
     } = props;
     return (
-        <div className={classNames(className,{
-            'empty':true
-        })}>
+        <div className={classNames('empty',className)}>
             {image ? <div className="empty__image">{image}</div> : null}
             <Typography className="empty__description" type="text">{description}</Typography>
         </div>

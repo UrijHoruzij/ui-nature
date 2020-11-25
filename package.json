@@ -1,11 +1,11 @@
 {
   "name": "ui-nature",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "scripts": {
     "eject": "react-scripts eject",
     "style": "styleguidist server",
     "build": "npm run rm && npm run scss && cross-env NODE_ENV=production babel src/components --out-dir dist && copyfiles --flat src/components/**/*.woff2 dist/Fonts",
-    "scss": "node-sass src/components -o dist",
+    "scss": "node-sass --output-style compressed src/components -o dist",
     "rm": "rimraf ./dist"
   },
   "peerDependencies": {
@@ -54,6 +54,10 @@
   "author": "Urij Horuzij",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "classnames": "^2.2.6",
     "normalize.css": "^8.0.1"
   },
   "homepage": "https://github.com/UrijHoruzij/ui-nature"

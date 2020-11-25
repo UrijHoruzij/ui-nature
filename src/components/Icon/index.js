@@ -15,12 +15,11 @@ const Icon = props => {
         color
     } = props;
     return (
-        <svg className={classNames(className,{
-            "icon": true,
+        <svg className={classNames("icon",{
             "icon__secondary": color === "secondary",
             "icon__contrast": color === "contrast",
             "icon__accent": color === "accent",
-        })}
+        },className)}
         style={style}
         width={width} 
         height={height} 

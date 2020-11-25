@@ -22,9 +22,7 @@ const Input = props => {
     <>
       <div className="form-item">
         <input 
-        className={classNames(className,{
-          "input":true,
-        })} 
+        className={classNames("input",className)} 
         style={style} 
         type={type} 
         name={name} 
@@ -69,7 +67,7 @@ Input.propTypes = {
       'url',
     ]),
   name: PropTypes.string,
-  status: PropTypes.oneOf(['error', 'success', 'warning']),
+  status: PropTypes.oneOf(['error', 'success', 'warning','default']),
   help: PropTypes.string,
   isFocused: PropTypes.bool,
   className: PropTypes.string,

@@ -1,0 +1,105 @@
+@import "../varible.scss";
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  &--small {
+    width: 44px;
+    height: 44px;
+  }
+  &--medium {
+    width: 88px;
+    height: 88px;
+  }
+  &--large {
+    width: 176px;
+    height: 176px;
+  }
+  &--symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-family: $fontFamily, sans-serif;
+    font-weight: 400;
+    color: $colorTextContrast;
+    &-small {
+      width: 44px;
+      height: 44px;
+      font-size: 18px;
+    }
+    &-medium {
+      width: 88px;
+      height: 88px;
+      font-size: 24px;
+    }
+    &-large {
+      width: 176px;
+      height: 176px;
+      font-size: 36px;
+    }
+  }
+  &__img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 5;
+    &--small {
+      max-width: 44px;
+      max-height: 44px;
+    }
+    &--medium {
+      max-width: 88px;
+      max-height: 88px;
+    }
+    &--large {
+      max-width: 176px;
+      max-height: 176px;
+    }
+  }
+  &__is-online {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: $colorTextContrast;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+      content: "";
+      display: block;
+      border-radius: 50%;
+      background-color: $colorAccent;
+      z-index: 15;
+    }
+    &--small {
+      width: 8px;
+      height: 8px;
+      &::before {
+        width: 6px;
+        height: 6px;
+      }
+    }
+    &--medium {
+      width: 12px;
+      height: 12px;
+      &::before {
+        width: 10px;
+        height: 10px;
+      }
+    }
+    &--large {
+      width: 20px;
+      height: 20px;
+      &::before {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}

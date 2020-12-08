@@ -6,4 +6,7 @@
   border: none;
   border-radius: $radius;
   object-fit: cover;
+  &-container {
+    display: flex;
+  }
 }

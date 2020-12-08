@@ -29,3 +29,27 @@
   Заголовок 1
 </Typography>
 ```
+
+### Overlined
+
+```js
+<Typography type="h1" decoration="overlined">
+  Заголовок 1
+</Typography>
+```
+
+### Underlined
+
+```js
+<Typography type="h1" decoration="underlined">
+  Заголовок 1
+</Typography>
+```
+
+### Crossed
+
+```js
+<Typography type="h1" decoration="crossed">
+  Заголовок 1
+</Typography>
+```

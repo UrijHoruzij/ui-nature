@@ -19,6 +19,7 @@ const Button = props => {
     rounded,
     onClick
   } = props;
+  
   const classNameComponent = classNames("button", {
         "button__primary": type === "primary",
         "button__secondary": type === "secondary",

@@ -10,7 +10,7 @@
   text-decoration: none;
   height: 32px;
   border: none;
-  border-radius: 4px;
+  border-radius: $radius;
   outline: none;
   display: flex;
   justify-content: center;
@@ -22,14 +22,14 @@
     color: $colorTextContrast;
     background-color: $colorAccent;
     &:hover {
-      background-color: lighten($colorAccent, 10%);
+      background-color: $colorAccentActiv;
     }
   }
   &__secondary {
     color: $colorText;
     background-color: $colorBgSecondary;
     &:hover {
-      background-color: darken($colorBgSecondary, 10%);
+      background-color: $colorTextSecondary;
     }
   }
   &__outline {
@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   &__icon {
     width: 16px;
@@ -88,7 +89,7 @@
   height: 4px;
   border-radius: 4px;
   background-color: $colorBg;
-  animation: loading2 1s infinite;
+  animation: loading 1s infinite;
 }
 .dot:nth-child(1) {
   margin-right: 4px;

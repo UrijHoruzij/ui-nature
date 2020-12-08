@@ -14,6 +14,7 @@ const Image = props => {
     } = props;
     return (
         <div 
+            className="image-container"
             style={{width:width+'px', height:height+'px'}}>
             <img 
                 className={
@@ -28,8 +29,8 @@ const Image = props => {
 
 Image.propTypes = {
     alt: PropTypes.string,
-    width: PropTypes.string.isRequired,
-    height: PropTypes.string.isRequired,
+    width: PropTypes.string,
+    height: PropTypes.string,
     src: PropTypes.string.isRequired,
     className: PropTypes.string
 }

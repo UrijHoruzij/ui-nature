@@ -21,6 +21,10 @@ module.exports = {
             name: '[name].[ext]',
             publicPath: './src/components/Fonts'
           }      
+        },
+        {
+          test: /\.(png|jpg)$/,
+          loader: 'url-loader'
         }
       ]
     },

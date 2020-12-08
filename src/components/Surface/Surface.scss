@@ -1,0 +1,10 @@
+@import "../varible.scss";
+
+.surface {
+  border-radius: $radius;
+  background-color: $colorBg;
+  padding: 8px;
+  @include shadow-popup();
+  min-width: 80px;
+  min-height: 80px;
+}

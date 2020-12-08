@@ -7,3 +7,8 @@ export { default as Form } from "./Form";
 export { default as Icon } from "./Icon";
 export { default as Image } from "./Image";
 export {default as Empty } from "./Empty";
+export {default as Sidebar } from "./Sidebar";
+export {default as Tooltip } from "./Tooltip";
+// export {default as Notification } from "./Notification";
+export {default as Avatar } from "./Avatar";
+export {default as Surface } from "./Surface";

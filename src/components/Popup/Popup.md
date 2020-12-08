@@ -1,48 +1,35 @@
 ### Popup
 
 ```js
-<Popup />
-```
-
-### Popup: modal
-
-```js
-<Popup type="modal" />
+import { Typography } from "../";
+<Popup
+  visible={true}
+  style={{ position: "relative", transform: "translate(0,0)", top: 0, left: 0 }}
+>
+  <Typography type="text">Popup</Typography>
+  <Typography type="text">description</Typography>
+</Popup>;
 ```
 
 ### Popup: close button
 
 ```js
-<Popup type="modal-close" />
+<Popup
+  visible={true}
+  style={{ position: "relative", transform: "translate(0,0)", top: 0, left: 0 }}
+  type="popup-close"
+/>
 ```
 
-### Popup: tooltip
+### Popup thumnail
 
 ```js
-<Popup type="tooltip" />
-```
-
-### Popup: tooltip image
-
-```js
-<Popup type="tooltip-image" />
-```
-
-### Popup: tooltip close button
-
-```js
-<Popup type="tooltip-close" />
-```
-
-### Popup: thumnail
-
-```js
-import { Image } from "../";
-<Popup type="thumnail">
-  <Image
-    width="250"
-    height="300"
-    src="https://images.unsplash.com/photo-1477322524744-0eece9e79640?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfDZzTVZqVExTa2VRfHxlbnwwfHx8"
-  />
+import { Image, Button } from "../";
+<Popup
+  visible={true}
+  style={{ position: "relative", transform: "translate(0,0)", top: 0, left: 0 }}
+  type="popup"
+>
+  <Image src="https://images.unsplash.com/photo-1477322524744-0eece9e79640" />
 </Popup>;
 ```

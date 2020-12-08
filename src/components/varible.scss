@@ -1,5 +1,5 @@
-$colorText: #333333;
-$colorTextSecondary: #bdbdbd;
+$colorText: #171717;
+$colorTextSecondary: #b5b5b5;
 $colorTextContrast: #ffffff;
 
 $colorBg: #ffffff;
@@ -7,19 +7,23 @@ $colorBgSecondary: #f0f0f0;
 $colorBgContrast: #333333;
 
 $colorIcon: #333333;
-$colorIconSecondary: #bdbdbd;
+$colorIconSecondary: #b5b5b5;
 $colorIconContrast: #ffffff;
 
-$colorSuccess: #28c75d;
-$colorError: #ff1100;
+$colorSuccess: #05a84f;
+$colorError: #f3363e;
 $colorNotify: #ff9e00;
 
-$colorAccent: #4caf50;
+$colorAccent: #008603;
+$colorAccentActiv: #339e35;
 
-$fontFamily: "Nunito";
+$fontFamily: "Montserrat";
 
-@mixin shadow-10() {
+@mixin shadow-popup() {
   filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.1));
+}
+@mixin shadow-tooltip() {
+  filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.2));
 }
 
 $radius: 4px;

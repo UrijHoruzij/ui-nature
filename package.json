@@ -1,19 +1,12 @@
 {
   "name": "ui-nature",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "scripts": {
     "eject": "react-scripts eject",
     "style": "styleguidist server",
     "build": "npm run rm && npm run scss && cross-env NODE_ENV=production babel src/components --out-dir dist && copyfiles --flat src/components/**/*.woff2 dist/Fonts",
     "scss": "node-sass --output-style compressed src/components -o dist",
     "rm": "rimraf ./dist"
-  },
-  "peerDependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "classnames": "^2.2.6",
-    "prop-types": "^15.7.2",
-    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
@@ -28,6 +21,7 @@
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "node-sass": "^4.14.1",
+    "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -46,19 +40,20 @@
     "dist",
     "README.md"
   ],
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "ssh://git@github.com/UrijHoruzij/ui-nature.git",
-    "directory": "packages/name"
+    "directory": "UrijHoruzij/ui-nature"
   },
   "author": "Urij Horuzij",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.2.6",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "classnames": "^2.2.6",
-    "normalize.css": "^8.0.1"
+    "tinycolor2": "^1.4.2"
   },
   "homepage": "https://github.com/UrijHoruzij/ui-nature"
 }

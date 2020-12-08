@@ -14,7 +14,6 @@ const Input = props => {
     status,
     style,
     help,
-    isFocused,
     className,
     onChange,
   } = props;
@@ -28,9 +27,8 @@ const Input = props => {
         name={name} 
         onChange={onChange} 
         required 
-        {...value ? value : null}
-        {...disabled ? disabled : null}
-        {...isFocused ? autofocus : null}
+        value={value ? value : ""}
+        disabled={disabled}
         {...props}
         />
         <label htmlFor={name} className={classNames({
@@ -69,7 +67,6 @@ Input.propTypes = {
   name: PropTypes.string,
   status: PropTypes.oneOf(['error', 'success', 'warning','default']),
   help: PropTypes.string,
-  isFocused: PropTypes.bool,
   className: PropTypes.string,
   style: PropTypes.object,
   onChange: PropTypes.func,
@@ -77,7 +74,8 @@ Input.propTypes = {
 
 Input.defaultProps = {
   type: "text",
-  variation: "promo"
+  variation: "promo",
+  status: "default"
 }
 
 export default Input;

@@ -4,7 +4,7 @@
 <Avatar
   avatar="https://images.unsplash.com/photo-1517841905240-472988babdf9"
   fullname="Helena Lopes"
-  isOnline={true}
+  isOnline
   size="small"
 />
 ```
@@ -15,7 +15,7 @@
 <Avatar
   avatar="https://images.unsplash.com/photo-1517841905240-472988babdf9"
   fullname="Helena Lopes"
-  isOnline={true}
+  isOnline
   size="medium"
 />
 ```
@@ -26,7 +26,7 @@
 <Avatar
   avatar="https://images.unsplash.com/photo-1517841905240-472988babdf9"
   fullname="Helena Lopes"
-  isOnline={true}
+  isOnline
   size="large"
 />
 ```
@@ -35,9 +35,9 @@
 
 ```js
 <Avatar
-  id="43764838932479234"
+  user="43764838932479234"
   fullname="Helena Lopes"
-  isOnline={true}
+  isOnline
   size="small"
 />
 ```
@@ -46,9 +46,9 @@
 
 ```js
 <Avatar
-  id="43764838932479234"
+  user="43764838932479234"
   fullname="Helena Lopes"
-  isOnline={true}
+  isOnline
   size="medium"
 />
 ```
@@ -57,9 +57,9 @@
 
 ```js
 <Avatar
-  id="43764838932479234"
+  user="43764838932479234"
   fullname="Helena Lopes"
-  isOnline={true}
+  isOnline
   size="large"
 />
 ```

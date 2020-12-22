@@ -16,6 +16,18 @@
 <Button type="outline">Outline</Button>
 ```
 
+### Outline-primary
+
+```js
+<Button type="outline-primary">Outline-primary</Button>
+```
+
+### Link
+
+```js
+<Button type="link">Link</Button>
+```
+
 ### Disabled: true
 
 ```js
@@ -35,7 +47,7 @@
 ### Width: true
 
 ```js
-<Button type="primary" width>
+<Button type="primary" fullWidth>
   Войти
 </Button>
 ```
@@ -82,7 +94,7 @@ import { Icon } from "../";
 ### Icon loading
 
 ```js
-<Button loading type="primary">
+<Button loadingData type="primary">
   Закрыть
 </Button>
 ```

@@ -3,7 +3,7 @@
 ```js
 import { Avatar, Typography, Button } from "../";
 <Sidebar
-  blur="16px"
+  blur
   color="rgba(10,110,168,0.25)"
   background="https://images.unsplash.com/photo-1605505027420-a74af00e6ee2"
 >

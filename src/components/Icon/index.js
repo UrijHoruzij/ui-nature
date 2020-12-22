@@ -1,32 +1,30 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import classNames from "classnames";
 import icons from './Icons/icons';
+import styled, { css } from "styled-components"
 
-import './Icon.scss';
+const changeColor = (props) => {
+    switch (props.color) {
+        case "accent":
+            return css`stroke: ${props => props.theme.colors.colorAccent};`
+        case "secondary":
+            return css`stroke: ${props => props.theme.colors.colorIconSecondary};`   
+        case "contrast":
+            return css`stroke: ${props => props.theme.colors.colorIconContrast};`
+        default:
+           return css`stroke: ${props => props.theme.colors.colorIcon};`
+    }
+}
 
+const IconContainer = styled.svg`
+    ${props => changeColor(props)};
+`
 const Icon = props => {
-    const {
-        name,
-        width,
-        height,
-        className,
-        style,
-        color
-    } = props;
+    const { name } = props;
     return (
-        <svg className={classNames("icon",{
-            "icon__secondary": color === "secondary",
-            "icon__contrast": color === "contrast",
-            "icon__accent": color === "accent",
-        },className)}
-        style={style}
-        width={width} 
-        height={height} 
-        viewBox="0 0 16 16"  
-        xmlns="http://www.w3.org/2000/svg">
-           {icons[name]}
-        </svg>
+        <IconContainer viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" {...props}>
+            {icons[name]}
+        </IconContainer>
     )
 }
 

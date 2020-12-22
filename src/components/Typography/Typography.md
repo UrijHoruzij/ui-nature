@@ -33,7 +33,7 @@
 ### Overlined
 
 ```js
-<Typography type="h1" decoration="overlined">
+<Typography type="h1" decoration="overline">
   Заголовок 1
 </Typography>
 ```
@@ -41,7 +41,7 @@
 ### Underlined
 
 ```js
-<Typography type="h1" decoration="underlined">
+<Typography type="h1" decoration="underline">
   Заголовок 1
 </Typography>
 ```
@@ -49,7 +49,7 @@
 ### Crossed
 
 ```js
-<Typography type="h1" decoration="crossed">
+<Typography type="h1" decoration="line-through">
   Заголовок 1
 </Typography>
 ```

@@ -1,21 +1,32 @@
 import React from 'react'
-import classNames from 'classnames';
 import PropTypes from "prop-types";
+import styled from "styled-components"
 import Typography from "../Typography";
 
-import './Empty.scss'
-
+const EmptyContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+const EmptyImage = styled.div`
+    max-width: 120px;
+    max-height: 120px;
+`
+const EmptyDescription = styled(Typography)`
+    margin: 0;
+    margin-top: 8px;
+`
 const Empty = props => {
     const {
         image,
         description,
-        className
     } = props;
     return (
-        <div className={classNames('empty',className)}>
-            {image ? <div className="empty__image">{image}</div> : null}
-            <Typography className="empty__description" type="text">{description}</Typography>
-        </div>
+        <EmptyContainer {...props}>
+            {image ? <EmptyImage>{image}</EmptyImage> : null}
+            <EmptyDescription type="text">{description}</EmptyDescription>
+        </EmptyContainer>
     )
 }
 

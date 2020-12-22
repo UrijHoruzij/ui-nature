@@ -1,27 +1,51 @@
 import React from 'react'
 import PropTypes from "prop-types";
-import classNames from "classnames";
+import styled, { css } from "styled-components"
 
-import './Sidebar.scss';
-
+const Container = styled.div`
+    width: 320px;
+    max-width: 320px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    ${props => props.background ? css`
+        background-image: url(${props.background})
+    ` : ''}
+`
+const Color = styled.div`
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    ${props => props.color ? css`
+        background-color: ${props.color};
+    ` : ''}
+`
+const Blur = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    ${props => props.blur ? css`
+        backdrop-filter: blur(${props.theme.blur});;
+    ` : ''}
+`
 const Sidebar = props => {
     const {
-        className,
-        style,
         children,
-        background,
         color,
         blur
     } = props;
     return (
-        <div className={classNames("sidebar",className)} 
-            style={Object.assign({backgroundImage: `url(${background})`},style)}>
-            <div className="sidebar__color" style={{backgroundColor:color}}>
-                <div className="sidebar__blurred" style={{backdropFilter:`blur(${blur})`}}>
-                    {children}       
-                </div>
-            </div>    
-        </div>
+        <Container {...props}>
+            <Color color={color}>
+                <Blur blur={blur}>
+                    {children}
+                </Blur>
+            </Color>
+        </Container>
     )
 }
 
@@ -30,7 +54,7 @@ Sidebar.propTypes = {
   style: PropTypes.object,
   background: PropTypes.string,
   color: PropTypes.string,
-  blur: PropTypes.string
+  blur: PropTypes.bool
 }
 
 export default Sidebar

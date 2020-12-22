@@ -1,4 +1,5 @@
 import './main.scss';
+export { default as Theme } from "./theme";
 export { default as Button } from "./Button";
 export { default as Input } from "./Input";
 export { default as Typography } from "./Typography";
@@ -9,6 +10,11 @@ export { default as Image } from "./Image";
 export {default as Empty } from "./Empty";
 export {default as Sidebar } from "./Sidebar";
 export {default as Tooltip } from "./Tooltip";
-// export {default as Notification } from "./Notification";
 export {default as Avatar } from "./Avatar";
 export {default as Surface } from "./Surface";
+export {default as CheckBox} from "./Checkbox";
+export {default as Menu} from "./Menu";
+export {default as Frame} from "./Frame";
+export {default as ProgressBar} from "./ProgressBar";
+// export {default as Notification } from "./Notification";
+// export {default as RadioButton} from "./RadioButton";

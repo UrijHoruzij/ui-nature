@@ -1,38 +1,61 @@
 import React from "react";
 import PropTypes from "prop-types";
-import classNames from "classnames";
+import styled, { css } from "styled-components"
 import { Icon } from "../";
 
-import "./Popup.scss";
-
+const PopupContainer = styled.div`
+  position: fixed;
+  opacity: 0;
+  border-radius: ${props => props.theme.radius};
+  background-color: ${props => props.theme.colors.colorBg};
+  padding: 8px;
+  ${props => props.theme.shadow.popup};
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ${props => props.border ? css`
+    border: 1px solid ${props => props.theme.colors.colorBgSecondary};
+  ` : ''};
+  ${props => props.visible ? css`
+    opacity: 100%;
+  ` : ''};
+`
+const PopupContent = styled.div``
+const PopupCloseButton = styled.div`
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+`
 const Popup = (props) => {
-  const { visible, type, onClose, children, className, style, border } = props;
-  return visible ? (
-    <div
-      className={classNames("popup", className, {
-        "popup--border": border,
-        "popup--visible": visible,
-      })}
-      style={style}
-    >
-      <div className="popup-content">
+  const { type, onClose, children } = props;
+  return (
+    <PopupContainer {...props}>
+      <PopupContent>
         {type === "popup-close" ? (
-          <div className="popup-close-btn" onClick={onClose}>
+          <PopupCloseButton onClick={onClose}>
             <Icon name="close"></Icon>
-          </div>
+          </PopupCloseButton>
         ) : null}
         {children}
-      </div>
-    </div>
-  ) : null;
+      </PopupContent>
+    </PopupContainer>
+  )
 };
 
 Popup.propTypes = {
   type: PropTypes.oneOf(["popup-close", "popup"]),
+  visible: PropTypes.bool,
   className: PropTypes.string,
   style: PropTypes.object,
   onClose: PropTypes.func,
-  visible: PropTypes.bool,
   border: PropTypes.bool,
 };
 

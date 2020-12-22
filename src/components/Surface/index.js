@@ -1,21 +1,23 @@
 import React from 'react'
 import PropTypes from "prop-types";
-import classNames from "classnames";
+import styled from "styled-components";
 
-import './Surface.scss';
+const SurfaceContainer = styled.div`
+    border-radius: ${props => props.theme.radius};
+    background-color: ${props => props.theme.colors.colorBg};
+    padding: 8px;
+    ${props => props.theme.shadow.popup};
+    min-width: 80px;
+    min-height: 80px;
+    width: ${props => props.width ? props.width : '80px'};
+    height: ${props => props.height ? props.height : '80px'};
+`
+
 const Surface = props => {
-    const {
-        className,
-        style,
-        children,
-        width,
-        height
-    } = props;
     return (
-        <div className={classNames("surface",className)} 
-            style={Object.assign({width: width,height: height},style)}>
-            {children}
-        </div>
+        <SurfaceContainer {...props}>
+            {props.children}
+        </SurfaceContainer>
     )
 }
 

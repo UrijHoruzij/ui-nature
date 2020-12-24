@@ -5,7 +5,8 @@ import styled, { css } from "styled-components"
 const Container = styled.div`
     width: 320px;
     max-width: 320px;
-    height: 100vh;
+    height: 100%;
+    max-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -26,7 +27,6 @@ const Blur = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     z-index: 2;
     ${props => props.blur ? css`
         backdrop-filter: blur(${props.theme.blur});;

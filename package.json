@@ -1,6 +1,6 @@
 {
   "name": "ui-nature",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "scripts": {
     "eject": "react-scripts eject",
     "style": "styleguidist server",

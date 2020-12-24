@@ -1,7 +1,6 @@
 ### Menu
 
 ```js
-import { Icon } from "../";
 const menu = [
   {
     id: 1,

@@ -28,6 +28,12 @@
 <Button type="link">Link</Button>
 ```
 
+### Link-primary
+
+```js
+<Button type="link-primary">Link-primary</Button>
+```
+
 ### Disabled: true
 
 ```js

@@ -5,7 +5,7 @@ const menu = [
   {
     id: 1,
     name: "Файлы",
-    icon: "close",
+    icon: "file",
     onClick: () => {
       console.log("Файлы");
     },
@@ -13,7 +13,7 @@ const menu = [
   {
     id: 2,
     name: "Последние",
-    icon: "close",
+    icon: "last-time",
     onClick: () => {
       console.log("Последние");
     },
@@ -21,7 +21,7 @@ const menu = [
   {
     id: 3,
     name: "Фотографии",
-    icon: "close",
+    icon: "photo",
     onClick: () => {
       console.log("Фотографии");
     },

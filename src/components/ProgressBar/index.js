@@ -64,7 +64,10 @@ ProgressBar.propTypes = {
         'success',
         'error'
     ]),
-    percent: PropTypes.number
+    percent: PropTypes.oneOfType([
+        PropTypes.number,
+        PropTypes.string
+    ])
 }
 
 ProgressBar.defaultProps = {

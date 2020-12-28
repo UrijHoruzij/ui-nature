@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from "prop-types";
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 const changeColor = (props) => {
     switch (props.color) {
@@ -45,6 +45,9 @@ const Wrapper = styled.div`
     color: ${props => changeColor(props)};
     text-transform: ${ props => changeUppercase(props.uppercase) };
     text-decoration: ${ props => changeDecoration(props.decoration) };
+    ${props => props.margin ? 
+        css`margin: 0`
+    : null}
 `;
 
 const H1 = styled(Wrapper)`
@@ -60,6 +63,11 @@ const H2 = styled(Wrapper)`
 const H3 = styled(Wrapper)`
     font-size: 18px;
     line-height: 24px;
+`;
+
+const H4 = styled(Wrapper)`
+    font-size: 16px;
+    line-height: 20px;
 `;
 
 const P = styled(Wrapper)`
@@ -79,6 +87,8 @@ const Typography = props => {
             return <H2 as="h2" {...props}/>
         case 'h3':
             return <H3 as="h3" {...props}/>
+        case 'h4':
+            return <H4 as="h4" {...props}/>
         case 'text':
             return <P as="p" {...props}/>
         case 'menu':
@@ -93,6 +103,7 @@ Typography.propTypes = {
         'h1',
         'h2',
         'h3',
+        'h4',
         'text',
         'menu'
     ]),
@@ -110,7 +121,8 @@ Typography.propTypes = {
         'line-through',
     ]),
     className: PropTypes.string,
-    style: PropTypes.object
+    style: PropTypes.object,
+    margin: PropTypes.bool
 }
 
 Typography.defaultProps = {

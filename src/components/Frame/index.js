@@ -7,7 +7,7 @@ const Container = styled.div`
 `
 const Content = styled.div`
     width: 100%;
-    height: ${props => props.height ? props.height : '100px'};
+    height: ${props => props.height ? props.height+"px" : '100px'};
     min-height: 100px;
     overflow-y: scroll;
     scrollbar-width: thin;
@@ -33,6 +33,9 @@ const Frame = (props) => {
 Frame.propTypes = {
     className: PropTypes.string,
     style: PropTypes.object,
-    height: PropTypes.string,
+    height: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ])
 }
 export default Frame

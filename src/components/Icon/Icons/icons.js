@@ -11,7 +11,15 @@ import {
     Check,
     Close,
     Eye,
-    EyeNot
+    EyeNot,
+    File,
+    Photo,
+    Video,
+    LastTime,
+    Play,
+    Share,
+    Basket,
+    Download
 } from './';
 const icons = {
     'arrow-bottom': <ArrowBottom></ArrowBottom>,
@@ -25,8 +33,15 @@ const icons = {
     'check': <Check></Check>,
     'close': <Close></Close>,
     'eye': <Eye></Eye>,
-    'eye-not': <EyeNot></EyeNot>
-    
+    'eye-not': <EyeNot></EyeNot>,
+    'file': <File></File>,
+    'photo': <Photo></Photo>,
+    'video': <Video></Video>,
+    'last-time': <LastTime></LastTime>,
+    'play': <Play></Play>,
+    'share': <Share></Share>,
+    'basket': <Basket></Basket>,
+    'download': <Download></Download>
 }
 
 export default icons

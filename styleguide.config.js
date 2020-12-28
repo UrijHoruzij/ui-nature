@@ -1,7 +1,10 @@
 const path = require('path');
 module.exports = {
   title: 'UI-Nature',
-  ignore: ['./src/components/index.js','./src/components/Icon/Icons/*.js','./src/components/theme.js'],
+  ignore: [
+    './src/components/index.js',
+    './src/components/Icon/Icons/*.js',
+    './src/components/theme.js'],
   components: './src/components/**/*.js',
   webpackConfig: {
     module: {

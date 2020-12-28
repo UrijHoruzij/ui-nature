@@ -16,6 +16,12 @@
 <Typography type="h3">Заголовок 3</Typography>
 ```
 
+### H4
+
+```js
+<Typography type="h4">Заголовок 4</Typography>
+```
+
 ### Text
 
 ```js

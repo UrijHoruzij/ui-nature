@@ -33,11 +33,21 @@ const changeType = (props) => {
           color: ${props => props.theme.colors.colorTextContrast};
         }
       `
-    case "link":
+    case "link-primary":
       return css`
+        padding: 0;
+        height: 100%;
         color: ${props => props.theme.colors.colorAccent};
         background-color: transparent;
         &:hover { color: ${props => props.theme.colors.colorAccentActiv}; }
+      `
+    case "link":
+      return css`
+        padding: 0;
+        height: 100%;
+        color: ${props => props.theme.colors.colorText};
+        background-color: transparent;
+        &:hover { color: ${props => props.theme.colors.colorText}; }
       `
   }
 }
@@ -199,7 +209,8 @@ Button.propTypes = {
       'secondary',
       'outline',
       'outline-primary',
-      'link'
+      'link',
+      'link-primary'
     ]),
   className: PropTypes.string,
   style: PropTypes.object,

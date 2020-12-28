@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components"
-import { Icon } from "../";
+import { Icon, Typography } from "../";
 
 const PopupContainer = styled.div`
   position: fixed;
@@ -18,6 +18,7 @@ const PopupContainer = styled.div`
   transform: translate(-50%, -50%);
   z-index: 99999;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   ${props => props.border ? css`
@@ -27,25 +28,39 @@ const PopupContainer = styled.div`
     opacity: 100%;
   ` : ''};
 `
-const PopupContent = styled.div``
+const PopupContent = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 12px;
+`
+const Title = styled(Typography)`
+  width: 100%;
+`
 const PopupCloseButton = styled.div`
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 `
 const Popup = (props) => {
-  const { type, onClose, children } = props;
+  const { type, onClose, children, title } = props;
   return (
     <PopupContainer {...props}>
+    {title || type === "popup-close" ? (
       <PopupContent>
+        <Title margin type="h4">
+          {title}
+        </Title>
         {type === "popup-close" ? (
           <PopupCloseButton onClick={onClose}>
             <Icon name="close"></Icon>
           </PopupCloseButton>
         ) : null}
-        {children}
       </PopupContent>
+    ) : null}
+      {children}
     </PopupContainer>
   )
 };
@@ -57,6 +72,7 @@ Popup.propTypes = {
   style: PropTypes.object,
   onClose: PropTypes.func,
   border: PropTypes.bool,
+  title: PropTypes.string
 };
 
 Popup.defaultProps = {

@@ -28,8 +28,14 @@ const Image = props => {
 
 Image.propTypes = {
     alt: PropTypes.string,
-    width: PropTypes.string,
-    height: PropTypes.string,
+    width: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+    height: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
     src: PropTypes.string.isRequired,
     className: PropTypes.string,
     style: PropTypes.object

@@ -16,5 +16,6 @@ export {default as CheckBox} from "./Checkbox";
 export {default as Menu} from "./Menu";
 export {default as Frame} from "./Frame";
 export {default as ProgressBar} from "./ProgressBar";
+export {default as IconButton} from "./IconButton";
 // export {default as Notification } from "./Notification";
 // export {default as RadioButton} from "./RadioButton";

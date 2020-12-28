@@ -3,8 +3,9 @@ import React from 'react'
 const ArrowRight2 = () => {
     return (
         <>
-            <path d="M1 8H15L12 11" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M15 8L12 5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M15 8H1" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12 5L15 8" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M12 11L15 8" strokeLinecap="round" strokeLinejoin="round"/>
         </>
     )
 }

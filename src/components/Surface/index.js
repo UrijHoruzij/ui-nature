@@ -24,8 +24,14 @@ const Surface = props => {
 Surface.propTypes = {
     className: PropTypes.string,
     style: PropTypes.object,
-    width: PropTypes.string,
-    height: PropTypes.string
+    width: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+    height: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
 }
 
 export default Surface

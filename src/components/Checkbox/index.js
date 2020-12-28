@@ -56,6 +56,7 @@ const Content = styled.label`
 `
 const IconWrapper = styled(Icon)`
     stroke: ${props => props.theme.colors.colorText};
+    fill: ${props => props.theme.colors.colorText};
 `
 const CheckBox = (props) => {
     const {name, checked, style,className, disabled} = props;

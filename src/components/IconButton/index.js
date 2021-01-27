@@ -96,7 +96,11 @@ const changeColor = props => {
 
 const Container = styled.button`
   margin: 0;
-  padding: 8px;
+  ${props => props.overlay ? css`
+    padding: 0;
+  ` : css`
+    padding: 8px;
+  `}
   text-decoration: none;
   border: none;
   border-radius: ${props => props.theme.radius};
@@ -126,6 +130,7 @@ const Overlay = styled.span`
   user-select: none;
 `
 const LabelOverlay = styled.label`
+  padding: 8px;
   display: flex;
   justify-content: center;
   align-items: center;

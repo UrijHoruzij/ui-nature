@@ -49,3 +49,16 @@
   onChange={() => {}}
 />
 ```
+
+### Input visibleTitle: false
+
+```js
+<Input
+  type="text"
+  value=""
+  placeholder="Логин"
+  name="login"
+  onChange={() => {}}
+  visibleTitle={false}
+/>
+```

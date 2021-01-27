@@ -58,7 +58,7 @@ const ButtonContainer = styled.button`
   line-height: 20px;
   font-weight: 400;
   margin: 0;
-  padding: 8px 16px;
+  padding: ${props => props.overlay ? '8px 0px' : '8px 16px'};
   text-decoration: none;
   height: 32px;
   border: none;
@@ -121,6 +121,8 @@ const Dot = styled.span`
   }
 `
 const Overlay = styled.span`
+  width: 100%;
+  height: 100%;
   position: absolute;
   outline: none;
   opacity: 0;
@@ -132,6 +134,9 @@ const LabelOverlay = styled.label`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 8px 16px;
 `
 const Icon = styled.div`
   width: 16px;

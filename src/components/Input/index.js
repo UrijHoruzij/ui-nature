@@ -47,7 +47,7 @@ const FormItem = styled.div`
   font-family: ${props => props.theme.fontFamily}, sans-serif;
   width: 100%;
   position: relative;
-  height: 50px;
+  height: 100%;
   overflow: hidden;
   & input::placeholder {
     opacity: 0;
@@ -58,16 +58,24 @@ const InputContainer = styled.input`
   font-weight: 400;
   width: 100%;
   height: 32px;
-  padding-top: 20px;
+  padding: 0;
+  padding-top: ${props => props.visibleTitle ? '20px' : 0};
   font-size: 16px;
   color: ${props => props.theme.colors.colorText};
   border: none;
   outline: none;
-  &:focus + label > span,
-  &:valid + label > span {
-    transform: translateY(-150%);
-    font-size: 14px;
-  }
+  ${props => props.visibleTitle ? css`
+    &:focus + label > span,
+    &:valid + label > span {
+      transform: translateY(-150%);
+      font-size: 14px;
+    }
+  ` : css`
+    &:focus + label > div,
+    &:valid + label > div {
+      opacity: 0
+    }
+  `}
   &:focus + label::after,
   &:valid + label::after {
     transform: translateX(0%);
@@ -114,16 +122,25 @@ const Input = props => {
     name,
     status,
     help,
+    visibleTitle
   } = props;
   return (
     <>
       <FormItem>
         <InputContainer required {...props}></InputContainer>
-        <Label htmlFor={name} status={status}>
-          <LabelName>
-            {placeholder}
-          </LabelName>
-        </Label>
+        {visibleTitle ? (
+          <Label htmlFor={name} status={status}>
+            <LabelName>
+              {placeholder}
+            </LabelName>
+          </Label>
+        ) : (
+          <Label htmlFor={name} status={status}>
+            <LabelName as="div">
+              {placeholder}
+            </LabelName>
+          </Label>
+        )}
       </FormItem>
       <Help status={status}>
         {help}
@@ -149,11 +166,13 @@ Input.propTypes = {
   className: PropTypes.string,
   style: PropTypes.object,
   onChange: PropTypes.func,
+  visibleTitle: PropTypes.bool
 }
 
 Input.defaultProps = {
   type: "text",
-  status: "default"
+  status: "default",
+  visibleTitle: true
 }
 
 export default Input;

@@ -6,6 +6,7 @@ import { Icon, Typography } from "../";
 const PopupContainer = styled.div`
   position: fixed;
   opacity: 0;
+  visibility: hidden;
   border-radius: ${props => props.theme.radius};
   background-color: ${props => props.theme.colors.colorBg};
   padding: 8px;
@@ -26,6 +27,7 @@ const PopupContainer = styled.div`
   ` : ''};
   ${props => props.visible ? css`
     opacity: 100%;
+    visibility: visible;
   ` : ''};
 `
 const PopupContent = styled.div`

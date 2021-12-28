@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component Render checkbox 1`] = `
+Array [
+  .c4 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 span {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.c1 {
+  display: none;
+}
+
+.c1:checked + .c2 span {
+  opacity: 100%;
+}
+
+.c6 {
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: Montserrat,sans-serif;
+  color: #333333;
+  cursor: pointer;
+}
+
+.c5 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      defaultChecked={false}
+      id="chk"
+      name="chk"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="c2 c3"
+      htmlFor="chk"
+    >
+      <span>
+        <svg
+          className="c4 c5"
+          fill="none"
+          height="16"
+          name="check"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 9L8 12"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M8 12L14 6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    </label>
+    <label
+      className="c6"
+      htmlFor="chk"
+    >
+      Checkbox
+    </label>
+  </div>,
+  .c4 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #008603;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 span {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.c1 {
+  display: none;
+}
+
+.c1:checked + .c2 span {
+  opacity: 100%;
+}
+
+.c6 {
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: Montserrat,sans-serif;
+  color: #333333;
+  cursor: pointer;
+}
+
+.c5 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      defaultChecked={true}
+      id="chk2"
+      name="chk2"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="c2 c3"
+      htmlFor="chk2"
+    >
+      <span>
+        <svg
+          className="c4 c5"
+          fill="none"
+          height="16"
+          name="check"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 9L8 12"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M8 12L14 6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    </label>
+    <label
+      className="c6"
+      htmlFor="chk2"
+    >
+      Checkbox
+    </label>
+  </div>,
+  .c4 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #b5b5b5;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 span {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.c1 {
+  display: none;
+}
+
+.c1:checked + .c2 span {
+  opacity: 100%;
+}
+
+.c6 {
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: Montserrat,sans-serif;
+  color: #b5b5b5;
+  cursor: pointer;
+}
+
+.c5 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      defaultChecked={false}
+      disabled={true}
+      id="chk3"
+      name="chk3"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="c2 c3"
+      disabled={true}
+      htmlFor="chk3"
+    >
+      <span>
+        <svg
+          className="c4 c5"
+          fill="none"
+          height="16"
+          name="check"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 9L8 12"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M8 12L14 6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    </label>
+    <label
+      className="c6"
+      disabled={true}
+      htmlFor="chk3"
+    >
+      Checkbox
+    </label>
+  </div>,
+  .c4 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #b5b5b5;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 span {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.c1 {
+  display: none;
+}
+
+.c1:checked + .c2 span {
+  opacity: 100%;
+}
+
+.c6 {
+  margin-left: 8px;
+  font-size: 16px;
+  font-family: Montserrat,sans-serif;
+  color: #b5b5b5;
+  cursor: pointer;
+}
+
+.c5 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      defaultChecked={true}
+      disabled={true}
+      id="chk4"
+      name="chk4"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="c2 c3"
+      disabled={true}
+      htmlFor="chk4"
+    >
+      <span>
+        <svg
+          className="c4 c5"
+          fill="none"
+          height="16"
+          name="check"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 9L8 12"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M8 12L14 6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    </label>
+    <label
+      className="c6"
+      disabled={true}
+      htmlFor="chk4"
+    >
+      Checkbox
+    </label>
+  </div>,
+]
+`;

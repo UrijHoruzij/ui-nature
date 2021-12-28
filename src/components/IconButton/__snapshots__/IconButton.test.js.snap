@@ -1,0 +1,658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton component Render iconbutton 1`] = `
+Array [
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c3 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+.c0:hover .c4.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="primary"
+  >
+    <svg
+      className="c2 c3"
+      fill="none"
+      height="16"
+      name="close"
+      type="primary"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.c1:hover {
+  background-color: #b5b5b5;
+}
+
+.c3 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+.c0:hover .c4.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="secondary"
+  >
+    <svg
+      className="c2 c3"
+      fill="none"
+      height="16"
+      name="close"
+      type="secondary"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #b5b5b5;
+}
+
+.c1:hover {
+  background-color: #f0f0f0;
+}
+
+.c3 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+.c0:hover .c4.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="outline"
+  >
+    <svg
+      className="c2 c3"
+      fill="none"
+      height="16"
+      name="close"
+      type="outline"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #008603;
+}
+
+.c1:hover {
+  background-color: #008603;
+}
+
+.c3 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+.c0:hover .c3.c3 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="outline-primary"
+  >
+    <svg
+      className="c2 c3"
+      fill="none"
+      height="16"
+      name="close"
+      type="outline-primary"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+}
+
+.c3 {
+  stroke: #333333;
+  fill: #333333;
+}
+
+.c0:hover .c4.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="link"
+  >
+    <svg
+      className="c2 c3"
+      fill="none"
+      height="16"
+      name="close"
+      type="link"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+}
+
+.c0:hover .c4.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+.c3 {
+  stroke: #008603;
+  fill: #008603;
+}
+
+.c3:hover {
+  stroke: #339e35;
+  fill: #339e35;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="link-primary"
+  >
+    <svg
+      className="c2 c3"
+      fill="none"
+      height="16"
+      name="close"
+      type="link-primary"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-color: #008603;
+  background-color: #f0f0f0;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c1:hover {
+  background-color: #f0f0f0;
+}
+
+.c0:hover .c4.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+.c3 {
+  stroke: #b5b5b5;
+  fill: #b5b5b5;
+}
+
+.c3:hover {
+  stroke: #b5b5b5;
+  fill: #b5b5b5;
+}
+
+<button
+    className="c0 c1"
+    disabled={true}
+    size="16"
+    type="primary"
+  >
+    <svg
+      className="c2 c3"
+      disabled={true}
+      fill="none"
+      height="16"
+      name="close"
+      type="primary"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 2L14 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2L2 14"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  </button>,
+  .c3 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c4 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+.c0:hover .c6.c6 {
+  stroke: #ffffff;
+  fill: #ffffff;
+}
+
+.c5 {
+  position: absolute;
+  outline: none;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+<button
+    className="c0 c1"
+    size="16"
+    type="primary"
+  >
+    <label
+      className="c2"
+    >
+      <svg
+        className="c3 c4"
+        fill="none"
+        height="16"
+        name="close"
+        type="primary"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 2L14 14"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 2L2 14"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="c5"
+      >
+        <input
+          type="file"
+        />
+      </span>
+    </label>
+  </button>,
+]
+`;

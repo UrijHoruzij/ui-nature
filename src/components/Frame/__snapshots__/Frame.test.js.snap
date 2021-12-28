@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frame component Render frame 1`] = `
+.c2 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c2:hover {
+  background-color: #339e35;
+}
+
+.c0 {
+  margin-right: 2px;
+}
+
+.c1 {
+  width: 100%;
+  height: 100px;
+  min-height: 100px;
+  overflow-y: scroll;
+  -webkit-scrollbar-width: thin;
+  -moz-scrollbar-width: thin;
+  -ms-scrollbar-width: thin;
+  scrollbar-width: thin;
+  -webkit-scrollbar-width: #008603;
+  -moz-scrollbar-width: #008603;
+  -ms-scrollbar-width: #008603;
+  scrollbar-width: #008603;
+}
+
+.c1::-webkit-scrollbar {
+  width: 2px;
+}
+
+.c1::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #008603;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <button
+      className="c2"
+      type="primary"
+    >
+      Кнопка
+    </button>
+    <button
+      className="c2"
+      type="primary"
+    >
+      Кнопка
+    </button>
+    <button
+      className="c2"
+      type="primary"
+    >
+      Кнопка
+    </button>
+    <button
+      className="c2"
+      type="primary"
+    >
+      Кнопка
+    </button>
+    <button
+      className="c2"
+      type="primary"
+    >
+      Кнопка
+    </button>
+    <button
+      className="c2"
+      type="primary"
+    >
+      Кнопка
+    </button>
+  </div>
+</div>
+`;

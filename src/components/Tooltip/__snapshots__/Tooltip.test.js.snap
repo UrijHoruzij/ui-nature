@@ -1,0 +1,882 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component Render tooltip 1`] = `
+Array [
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c3 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0:hover {
+  overflow: visible;
+}
+
+.c0:hover div {
+  opacity: 1;
+}
+
+.c0 div {
+  right: calc(100% + 16px);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0 div::before {
+  right: -4px;
+  margin-top: -4px;
+  top: 50%;
+}
+
+.c2 {
+  z-index: 10;
+  background: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #333333;
+  max-width: 320px;
+  min-width: 176px;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c2::before {
+  z-index: -1;
+  background: #ffffff;
+  content: "";
+  height: 8px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+<div
+    className="c0"
+    type="tooltip"
+  >
+    <button
+      className="c1"
+      type="primary"
+    >
+      Left
+    </button>
+    <div
+      className="c2"
+      type="tooltip"
+    >
+      <p
+        className="c3 c4"
+        color="text"
+        type="text"
+      >
+        Описание
+      </p>
+    </div>
+  </div>,
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0:hover {
+  overflow: visible;
+}
+
+.c0:hover div {
+  opacity: 1;
+}
+
+.c0 div {
+  right: calc(100% + 16px);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0 div::before {
+  right: -4px;
+  margin-top: -4px;
+  top: 50%;
+}
+
+.c2 {
+  z-index: 10;
+  background: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #333333;
+  max-width: 320px;
+  min-width: 176px;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c2::before {
+  z-index: -1;
+  background: #ffffff;
+  content: "";
+  height: 8px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+<div
+    className="c0"
+    type="tooltip"
+  >
+    <button
+      className="c1"
+      type="primary"
+    >
+      Left
+    </button>
+    <div
+      className="c2"
+      type="tooltip"
+    >
+      <div
+        className="c3"
+        src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+      >
+        <img
+          className="c4"
+          src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+        />
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0:hover {
+  overflow: visible;
+}
+
+.c0:hover div {
+  opacity: 1;
+}
+
+.c0 div {
+  left: calc(100% + 16px);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0 div::before {
+  left: -4px;
+  margin-top: -4px;
+  top: 50%;
+}
+
+.c2 {
+  z-index: 10;
+  background: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #333333;
+  max-width: 320px;
+  min-width: 176px;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c2::before {
+  z-index: -1;
+  background: #ffffff;
+  content: "";
+  height: 8px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+<div
+    className="c0"
+    type="tooltip"
+  >
+    <button
+      className="c1"
+      type="primary"
+    >
+      Right
+    </button>
+    <div
+      className="c2"
+      type="tooltip"
+    >
+      <div
+        className="c3"
+        src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+      >
+        <img
+          className="c4"
+          src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+        />
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0:hover {
+  overflow: visible;
+}
+
+.c0:hover div {
+  opacity: 1;
+}
+
+.c0 div {
+  bottom: calc(100% + 16px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c0 div::before {
+  bottom: -4px;
+  left: 50%;
+  margin-left: -4px;
+}
+
+.c2 {
+  z-index: 10;
+  background: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #333333;
+  max-width: 320px;
+  min-width: 176px;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c2::before {
+  z-index: -1;
+  background: #ffffff;
+  content: "";
+  height: 8px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+<div
+    className="c0"
+    type="tooltip"
+  >
+    <button
+      className="c1"
+      type="primary"
+    >
+      Top
+    </button>
+    <div
+      className="c2"
+      type="tooltip"
+    >
+      <div
+        className="c3"
+        src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+      >
+        <img
+          className="c4"
+          src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+        />
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c4 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0:hover {
+  overflow: visible;
+}
+
+.c0:hover div {
+  opacity: 1;
+}
+
+.c0 div {
+  top: calc(100% + 16px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c0 div::before {
+  top: -4px;
+  left: 50%;
+  margin-left: -4px;
+}
+
+.c2 {
+  z-index: 10;
+  background: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #333333;
+  max-width: 320px;
+  min-width: 176px;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.c2::before {
+  z-index: -1;
+  background: #ffffff;
+  content: "";
+  height: 8px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+<div
+    className="c0"
+    type="tooltip"
+  >
+    <button
+      className="c1"
+      type="primary"
+    >
+      Bottom
+    </button>
+    <div
+      className="c2"
+      type="tooltip"
+    >
+      <div
+        className="c3"
+        src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+      >
+        <img
+          className="c4"
+          src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+        />
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #008603;
+}
+
+.c1:hover {
+  background-color: #339e35;
+}
+
+.c4 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.c0 {
+  position: relative;
+  overflow: hidden;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: visible;
+}
+
+.c0 div {
+  opacity: 1;
+}
+
+.c0:hover {
+  overflow: visible;
+}
+
+.c0:hover div {
+  opacity: 1;
+}
+
+.c0 div {
+  top: calc(100% + 16px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c0 div::before {
+  top: -4px;
+  left: 50%;
+  margin-left: -4px;
+}
+
+.c2 {
+  z-index: 10;
+  background: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  filter: drop-shadow(0px 0px 25px rgba(0,0,0,0.2));
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #333333;
+  max-width: 320px;
+  min-width: 176px;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-top: 32px;
+}
+
+.c2::before {
+  z-index: -1;
+  background: #ffffff;
+  content: "";
+  height: 8px;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+.c3 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+<div
+    className="c0"
+    type="tooltip-close"
+  >
+    <button
+      className="c1"
+      type="primary"
+    >
+      Bottom
+    </button>
+    <div
+      className="c2"
+      type="tooltip-close"
+    >
+      <div
+        className="c3"
+      >
+        <svg
+          className="c4"
+          fill="none"
+          height="16"
+          name="close"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 2L14 14"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M14 2L2 14"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        className="c5"
+        src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+      >
+        <img
+          className="c6"
+          src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;

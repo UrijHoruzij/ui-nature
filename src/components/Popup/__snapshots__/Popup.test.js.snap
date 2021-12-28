@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup component Render popup 1`] = `
+Array [
+  .c1 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.c0 {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 8px;
+  -webkit-filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.1));
+  filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.1));
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 99999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 100%;
+  visibility: visible;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "left": 0,
+        "position": "relative",
+        "top": 0,
+        "transform": "translate(0,0)",
+      }
+    }
+    type="popup"
+  >
+    <p
+      className="c1 c2"
+      color="text"
+      type="text"
+    >
+      Popup
+    </p>
+    <p
+      className="c1 c2"
+      color="text"
+      type="text"
+    >
+      description
+    </p>
+  </div>,
+  .c7 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c8 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.c0 {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 8px;
+  -webkit-filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.1));
+  filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.1));
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 99999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 100%;
+  visibility: visible;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.c4 {
+  width: 100%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.c6 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "left": 0,
+        "position": "relative",
+        "top": 0,
+        "transform": "translate(0,0)",
+      }
+    }
+    title="Popup"
+    type="popup-close"
+  >
+    <div
+      className="c1"
+    >
+      <h4
+        className="c2 c3 c4"
+        color="text"
+        type="h4"
+      >
+        Popup
+      </h4>
+      <div
+        className="c5"
+      >
+        <svg
+          className="c6"
+          fill="none"
+          height="16"
+          name="close"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 2L14 14"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M14 2L2 14"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+    <p
+      className="c7 c8"
+      color="text"
+      type="text"
+    >
+      Popup
+    </p>
+    <p
+      className="c7 c8"
+      color="text"
+      type="text"
+    >
+      description
+    </p>
+  </div>,
+  .c0 {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 8px;
+  -webkit-filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.1));
+  filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.1));
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 99999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 100%;
+  visibility: visible;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.c2 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "left": 0,
+        "position": "relative",
+        "top": 0,
+        "transform": "translate(0,0)",
+      }
+    }
+    type="popup"
+  >
+    <div
+      className="c1"
+      src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+    >
+      <img
+        className="c2"
+        src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+      />
+    </div>
+  </div>,
+]
+`;

@@ -1,0 +1,625 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Render input 1`] = `
+Array [
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder {
+  opacity: 0;
+}
+
+.c1 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+}
+
+.c1:focus + label > span,
+.c1:valid + label > span {
+  -webkit-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+  font-size: 14px;
+}
+
+.c1:focus + label::after,
+.c1:valid + label::after {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  pointer-events: none;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #008603;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  color: #b5b5b5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      name="login"
+      onChange={[Function]}
+      placeholder="Логин"
+      required={true}
+      type="text"
+      value=""
+    />
+    <label
+      className="c2"
+      htmlFor="login"
+    >
+      <span
+        className="c3"
+      >
+        Логин
+      </span>
+    </label>
+  </div>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder {
+  opacity: 0;
+}
+
+.c1 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+}
+
+.c1:focus + label > span,
+.c1:valid + label > span {
+  -webkit-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+  font-size: 14px;
+}
+
+.c1:focus + label::after,
+.c1:valid + label::after {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  pointer-events: none;
+  border-bottom: 1px solid #008603;
+}
+
+.c2::after {
+  border-bottom: 1px solid #008603;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #008603;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  color: #b5b5b5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      name="login"
+      onChange={[Function]}
+      placeholder="Логин"
+      required={true}
+      type="text"
+      value=""
+    />
+    <label
+      className="c2"
+      htmlFor="login"
+    >
+      <span
+        className="c3"
+      >
+        Логин
+      </span>
+    </label>
+  </div>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  color: #008603;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder {
+  opacity: 0;
+}
+
+.c1 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+}
+
+.c1:focus + label > span,
+.c1:valid + label > span {
+  -webkit-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+  font-size: 14px;
+}
+
+.c1:focus + label::after,
+.c1:valid + label::after {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  pointer-events: none;
+  border-bottom: 1px solid #ff9e00;
+}
+
+.c2::after {
+  content: "";
+  border-bottom: 1px solid #ff9e00;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #008603;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  color: #b5b5b5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      name="login"
+      onChange={[Function]}
+      placeholder="Логин"
+      required={true}
+      type="text"
+      value=""
+    />
+    <label
+      className="c2"
+      htmlFor="login"
+    >
+      <span
+        className="c3"
+      >
+        Логин
+      </span>
+    </label>
+  </div>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  color: #ff9e00;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder {
+  opacity: 0;
+}
+
+.c1 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+}
+
+.c1:focus + label > span,
+.c1:valid + label > span {
+  -webkit-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  transform: translateY(-150%);
+  font-size: 14px;
+}
+
+.c1:focus + label::after,
+.c1:valid + label::after {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  pointer-events: none;
+  border-bottom: 1px solid #f3363e;
+}
+
+.c2::after {
+  content: "";
+  border-bottom: 1px solid #f3363e;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #008603;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  color: #b5b5b5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      name="login"
+      onChange={[Function]}
+      placeholder="Логин"
+      required={true}
+      type="text"
+      value=""
+    />
+    <label
+      className="c2"
+      htmlFor="login"
+    >
+      <span
+        className="c3"
+      >
+        Логин
+      </span>
+    </label>
+  </div>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  color: #f3363e;
+}
+
+<div
+    className="c0"
+  >
+    Неправильный пароль
+  </div>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c0 input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::-moz-placeholder {
+  opacity: 0;
+}
+
+.c0 input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.c0 input::placeholder {
+  opacity: 0;
+}
+
+.c1 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 32px;
+  padding: 0;
+  padding-top: 0;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+}
+
+.c1:focus + label > div,
+.c1:valid + label > div {
+  opacity: 0;
+}
+
+.c1:focus + label::after,
+.c1:valid + label::after {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  pointer-events: none;
+}
+
+.c2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #008603;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  color: #b5b5b5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+<div
+    className="c0"
+  >
+    <input
+      className="c1"
+      name="login"
+      onChange={[Function]}
+      placeholder="Логин"
+      required={true}
+      type="text"
+      value=""
+    />
+    <label
+      className="c2"
+      htmlFor="login"
+    >
+      <div
+        className="c3"
+      >
+        Логин
+      </div>
+    </label>
+  </div>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component Render menu 1`] = `
+.c5 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.c7 {
+  margin: 0;
+}
+
+.c3 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.c1:not(:first-child) {
+  margin-top: 8px;
+}
+
+.c4 {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  margin-left: 6px;
+}
+
+.c2 {
+  width: 2px;
+  height: 24px;
+  background: #008603;
+  margin-right: 4px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c8 {
+  width: 2px;
+  height: 24px;
+  background: transparent;
+  margin-right: 4px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    />
+    <svg
+      className="c3 c4"
+      fill="none"
+      height="16"
+      name="file"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2 1V15H14V3.33333L10.4 1H2Z"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 6L12 6"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 8L12 8"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 10L8 10"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+    <p
+      className="c5 c6 c7"
+      color="text"
+      type="menu"
+    >
+      Файлы
+    </p>
+  </div>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <div
+      className="c8"
+    />
+    <svg
+      className="c3 c4"
+      fill="none"
+      height="16"
+      name="last-time"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8 4L8 8"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="0.75"
+      />
+      <path
+        d="M8 8L10 10"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="0.75"
+      />
+      <circle
+        cx="8"
+        cy="8"
+        fill="none"
+        r="6.5"
+      />
+    </svg>
+    <p
+      className="c5 c6 c7"
+      color="text"
+      type="menu"
+    >
+      Последние
+    </p>
+  </div>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <div
+      className="c8"
+    />
+    <svg
+      className="c3 c4"
+      fill="none"
+      height="16"
+      name="photo"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15 3H1V13H15V3Z"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle
+        cx="6"
+        cy="6"
+        fill="none"
+        r="0.75"
+        strokeWidth="0.5"
+      />
+      <path
+        d="M1 13L5.2 9.11111L6.6 10.6667L10.8 6L15 11.4444"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="0.75"
+      />
+    </svg>
+    <p
+      className="c5 c6 c7"
+      color="text"
+      type="menu"
+    >
+      Фотографии
+    </p>
+  </div>
+</div>
+`;

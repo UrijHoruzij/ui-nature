@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty component Render empty 1`] = `
+Array [
+  .c3 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.c2 {
+  stroke: #333333;
+  fill: #333333;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.c5 {
+  margin: 0;
+  margin-top: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <svg
+        className="c2"
+        fill="none"
+        height="16"
+        name="close"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 2L14 14"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 2L2 14"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
+    <p
+      className="c3 c4 c5"
+      color="text"
+      type="text"
+    >
+      Файл не найден
+    </p>
+  </div>,
+  ";",
+]
+`;

@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component Render avatar 1`] = `
+Array [
+  .c0 {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+}
+
+.c1 {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 5;
+  max-width: 44px;
+  max-height: 44px;
+}
+
+.c2 {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  background-color: #05a84f;
+  z-index: 15;
+  width: 6px;
+  height: 6px;
+}
+
+<div
+    className="c0"
+    size="small"
+  >
+    <img
+      alt="Helena Lopes"
+      className="c1"
+      size="small"
+      src="https://images.unsplash.com/photo-1517841905240-472988babdf9"
+    />
+    <div
+      className="c2"
+      size="small"
+    />
+  </div>,
+  .c0 {
+  position: relative;
+  display: inline-block;
+  width: 88px;
+  height: 88px;
+}
+
+.c1 {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 5;
+  max-width: 88px;
+  max-height: 88px;
+}
+
+.c2 {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  background-color: #05a84f;
+  z-index: 15;
+  width: 10px;
+  height: 10px;
+}
+
+<div
+    className="c0"
+    size="medium"
+  >
+    <img
+      alt="Helena Lopes"
+      className="c1"
+      size="medium"
+      src="https://images.unsplash.com/photo-1517841905240-472988babdf9"
+    />
+    <div
+      className="c2"
+      size="medium"
+    />
+  </div>,
+  .c0 {
+  position: relative;
+  display: inline-block;
+  width: 176px;
+  height: 176px;
+}
+
+.c1 {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 5;
+  max-width: 176px;
+  max-height: 176px;
+}
+
+.c2 {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  background-color: #05a84f;
+  z-index: 15;
+  width: 16px;
+  height: 16px;
+}
+
+<div
+    className="c0"
+    size="large"
+  >
+    <img
+      alt="Helena Lopes"
+      className="c1"
+      size="large"
+      src="https://images.unsplash.com/photo-1517841905240-472988babdf9"
+    />
+    <div
+      className="c2"
+      size="large"
+    />
+  </div>,
+  .c0 {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  width: 44px;
+  height: 44px;
+  background: #0052a3;
+  font-size: 18px;
+}
+
+.c2 {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+}
+
+.c2::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  background-color: #05a84f;
+  z-index: 15;
+  width: 6px;
+  height: 6px;
+}
+
+<div
+    className="c0"
+    size="small"
+  >
+    <div
+      className="c1"
+      size="small"
+    >
+      H
+    </div>
+    <div
+      className="c2"
+      size="small"
+    />
+  </div>,
+]
+`;

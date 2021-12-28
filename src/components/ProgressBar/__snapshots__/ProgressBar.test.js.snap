@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar component Render progressbar 1`] = `
+Array [
+  .c0 {
+  position: relative;
+  height: 4px;
+  width: 100px;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 78%;
+  height: 100%;
+  background: #008603;
+  border-radius: 4px;
+}
+
+<div
+    className="c0"
+    type="success"
+  >
+    <div
+      className="c1"
+      type="success"
+    />
+  </div>,
+  .c0 {
+  position: relative;
+  height: 4px;
+  width: 100px;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+  background: #f3363e;
+  border-radius: 4px;
+}
+
+<div
+    className="c0"
+    type="error"
+  >
+    <div
+      className="c1"
+      type="error"
+    />
+  </div>,
+]
+`;

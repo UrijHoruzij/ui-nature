@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography component Render typography 1`] = `
+Array [
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+<h2
+    className="c0 c1"
+    color="text"
+    type="h2"
+  >
+    Заголовок 2
+  </h2>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+<h3
+    className="c0 c1"
+    color="text"
+    type="h3"
+  >
+    Заголовок 3
+  </h3>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+<h4
+    className="c0 c1"
+    color="text"
+    type="h4"
+  >
+    Заголовок 4
+  </h4>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+<p
+    className="c0 c1"
+    color="text"
+    type="text"
+  >
+    Текст
+  </p>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: overline;
+  text-decoration: overline;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: none;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+]
+`;

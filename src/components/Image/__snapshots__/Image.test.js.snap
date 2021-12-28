@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component Render image 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 400px;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+<div
+  className="c0"
+  height="400"
+  src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+  width="300"
+>
+  <img
+    className="c1"
+    src="https://images.unsplash.com/photo-1477322524744-0eece9e79640"
+  />
+</div>
+`;

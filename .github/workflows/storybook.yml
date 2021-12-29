@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy Storybook
 on:
   push:
     paths: ["stories/**", "src/components/**"] # Trigger the action only when files change in the folders defined here
@@ -8,14 +8,14 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          persist-credentials: false
-      - name: Install and Build 🔧
-        run: | # Install npm packages and build the Storybook files
-          yarn install
-          npm run build-storybook
+          node-version: 14
+      - run: yarn install --pure-lockfile
+        name: Install dependencies
+      - run: yarn build-storybook
+        name: Build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:

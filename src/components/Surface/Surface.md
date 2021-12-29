@@ -1,5 +1,0 @@
-### Surface
-
-```js
-<Surface></Surface>
-```

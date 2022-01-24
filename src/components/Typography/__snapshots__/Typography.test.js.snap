@@ -124,6 +124,54 @@ Array [
   outline: none;
   font-weight: 500;
   color: #333333;
+  text-transform: capitalize;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    transform="capitalize"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
+  text-transform: lowercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+<h1
+    className="c0 c1"
+    color="text"
+    transform="lowercase"
+    type="h1"
+  >
+    Заголовок 1
+  </h1>,
+  .c0 {
+  font-family: Montserrat,sans-serif;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333333;
   text-transform: uppercase;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -137,6 +185,7 @@ Array [
 <h1
     className="c0 c1"
     color="text"
+    transform="uppercase"
     type="h1"
   >
     Заголовок 1

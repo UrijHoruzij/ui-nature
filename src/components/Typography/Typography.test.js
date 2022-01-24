@@ -13,7 +13,13 @@ describe("Typography component", () => {
         <Typography type="h3">Заголовок 3</Typography>
         <Typography type="h4">Заголовок 4</Typography>
         <Typography type="text">Текст</Typography>
-        <Typography type="h1" uppercase>
+        <Typography type="h1" transform="capitalize">
+          Заголовок 1
+        </Typography>
+        <Typography type="h1" transform="lowercase">
+          Заголовок 1
+        </Typography>
+        <Typography type="h1" transform="uppercase">
           Заголовок 1
         </Typography>
         <Typography type="h1" decoration="overline">

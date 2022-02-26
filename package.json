@@ -30,7 +30,7 @@
     "copyfiles": "^2.4.0",
     "cross-env": "^7.0.2",
     "jest-styled-components": "^7.0.8",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",

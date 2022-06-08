@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    branches: 
+    branches:
       - master
 
 jobs:
@@ -27,57 +27,50 @@ jobs:
     runs-on: ubuntu-latest
     # needs: [test]
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          persist-credentials: false
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16.x
-    - name: Install dependencies
-      run: npx install
-    - name: Build Storybook
-      run: npm run build-storybook      
+          node-version: 16.x
+      - name: Install dependencies
+        run: npx install
+      - name: Build Storybook
+        run: npm run build-storybook
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
     needs: [doc]
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
-          persist-credentials: false
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@3.6.2
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: main # The branch the action should deploy to.
-        FOLDER: docs-build # The folder that the build-storybook script generates files.
-        CLEAN: true # Automatically remove deleted files from the deploy branch
-        TARGET_FOLDER: docs # The folder that we serve our Storybook files from 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: main # The branch the action should deploy to.
+          FOLDER: docs-build # The folder that the build-storybook script generates files.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
+          TARGET_FOLDER: docs # The folder that we serve our Storybook files from
   release:
     name: Release
     runs-on: ubuntu-latest
     # needs: [test]
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          persist-credentials: false
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16.x
-    - name: Install dependencies
-      run: npx install
-    - name: Install semantic-release extra plugins
-      run: npm install --save-dev @semantic-release/changelog @semantic-release/git      
-    - name: Build
-      run: npm run build
-    - name: Release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: npx semantic-release
-     
+          node-version: 16.x
+      - name: Install dependencies
+        run: npx install
+      - name: Install semantic-release extra plugins
+        run: npm install --save-dev @semantic-release/changelog @semantic-release/git
+      - name: Build
+        run: npm run build
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release

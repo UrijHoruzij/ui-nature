@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/UrijHoruzij/ui-nature/compare/v1.0.0...v1.0.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* edit workflow ([089e7dc](https://github.com/UrijHoruzij/ui-nature/commit/089e7dc5ae98b32ec6be8987b983bf52d5ef3a00))
+* remove node-sass ([8f7bc39](https://github.com/UrijHoruzij/ui-nature/commit/8f7bc3958921975c81651b8f87001e545731f04b))
+
 # 1.0.0 (2022-06-08)
 
 

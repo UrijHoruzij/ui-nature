@@ -93,12 +93,6 @@ Object.defineProperty(exports, "Surface", {
     return _Surface["default"];
   }
 });
-Object.defineProperty(exports, "Theme", {
-  enumerable: true,
-  get: function get() {
-    return _theme["default"];
-  }
-});
 Object.defineProperty(exports, "Tooltip", {
   enumerable: true,
   get: function get() {
@@ -111,10 +105,6 @@ Object.defineProperty(exports, "Typography", {
     return _Typography["default"];
   }
 });
-
-require("./main.css");
-
-var _theme = _interopRequireDefault(require("./theme"));
 
 var _Button = _interopRequireDefault(require("./Button"));
 

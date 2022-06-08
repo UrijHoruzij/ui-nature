@@ -1,14 +1,12 @@
 {
   "name": "ui-nature",
-  "version": "1.0.0",
+  "version": "0.7.2",
   "scripts": {
     "storybook": "start-storybook -p 6006 -s public --no-manager-cache",
     "build-storybook": "build-storybook -o docs-build",
     "eject": "react-scripts eject",
-    "style": "styleguidist server",
     "test": "react-scripts test",
-    "build": "npm run rm && npm run scss && cross-env NODE_ENV=production babel src/components --out-dir dist && copyfiles --flat src/components/**/*.woff2 dist/Fonts",
-    "scss": "node-sass --output-style compressed src/components -o dist",
+    "build": "npm run rm && cross-env NODE_ENV=production babel src/components --out-dir dist && copyfiles --flat src/components/**/*.woff2 dist/Fonts",
     "rm": "rimraf ./dist",
     "prepare": "husky install"
   },
@@ -19,8 +17,6 @@
     "@babel/preset-react": "^7.12.5",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",
@@ -36,7 +32,6 @@
     "cross-env": "^7.0.2",
     "husky": "^8.0.1",
     "jest-styled-components": "^7.0.8",
-    "node-sass": "^7.0.0",
     "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -44,7 +39,6 @@
     "react-scripts": "4.0.0",
     "react-test-renderer": "^17.0.2",
     "rimraf": "^3.0.2",
-    "sass": "^1.29.0",
     "storybook-addon-styled-component-theme": "^2.0.0"
   },
   "main": "dist/index.js",

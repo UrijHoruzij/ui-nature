@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/UrijHoruzij/ui-nature/compare/v1.0.1...v1.0.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* edit workflow ([732afaf](https://github.com/UrijHoruzij/ui-nature/commit/732afaf63c8e9bda1ed4eca798dfbcc678e774c1))
+
 ## [1.0.1](https://github.com/UrijHoruzij/ui-nature/compare/v1.0.0...v1.0.1) (2022-06-08)
 
 

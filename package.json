@@ -1,6 +1,6 @@
 {
   "name": "ui-nature",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "storybook": "start-storybook -p 6006 -s public --no-manager-cache",
     "build-storybook": "build-storybook -o docs-build",

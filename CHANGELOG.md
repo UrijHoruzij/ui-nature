@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/UrijHoruzij/ui-nature/compare/v1.0.2...v1.0.3) (2022-06-09)
+
+
+### Bug Fixes
+
+* theme storybook ([e21fa6c](https://github.com/UrijHoruzij/ui-nature/commit/e21fa6ca9086e552c41f7d0080eaf2e071653698))
+
 ## [1.0.2](https://github.com/UrijHoruzij/ui-nature/compare/v1.0.1...v1.0.2) (2022-06-09)
 
 

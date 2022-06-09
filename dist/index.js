@@ -93,6 +93,12 @@ Object.defineProperty(exports, "Surface", {
     return _Surface["default"];
   }
 });
+Object.defineProperty(exports, "Theme", {
+  enumerable: true,
+  get: function get() {
+    return _theme["default"];
+  }
+});
 Object.defineProperty(exports, "Tooltip", {
   enumerable: true,
   get: function get() {
@@ -139,5 +145,7 @@ var _Frame = _interopRequireDefault(require("./Frame"));
 var _ProgressBar = _interopRequireDefault(require("./ProgressBar"));
 
 var _IconButton = _interopRequireDefault(require("./IconButton"));
+
+var _theme = _interopRequireDefault(require("./theme"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

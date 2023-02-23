@@ -31,4 +31,4 @@ If you have any questions or need help, please refer to the [documentation](http
 
 ## License
 
-Create Gulp Template is released under the [MIT License](https://github.com/UrijHoruzij/ui-nature/blob/master/LICENSE).
+UI-Nature is released under the [MIT License](https://github.com/UrijHoruzij/ui-nature/blob/master/LICENSE).

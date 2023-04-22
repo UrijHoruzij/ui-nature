@@ -21,7 +21,7 @@
     "@semantic-release/git": "^10.0.1",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^7.0.6",
-    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-links": "^7.0.6",
     "@storybook/node-logger": "^7.0.2",
     "@storybook/preset-create-react-app": "^7.0.5",
     "@storybook/react": "^7.0.6",
